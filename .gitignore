@@ -1,3 +1,13 @@
+##### global ignores #####
+
+# ignore extensionless files
+!*.*
+
+# ignore ghost writer markdown backups
+*.md.backup
+
+##### C-lang specific #####
+
 # Prerequisites
 *.d
 
