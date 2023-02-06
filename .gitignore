@@ -1,7 +1,15 @@
 ##### global ignores #####
 
-# ignore extensionless files
+### ignore extensionless files ###
+# Ignore all
+*
+
+# Unignore all with extensions
 !*.*
+
+# Unignore all dirs
+!*/
+##################################
 
 # ignore ghost writer markdown backups
 *.md.backup
